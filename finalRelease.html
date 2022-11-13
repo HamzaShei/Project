@@ -1,0 +1,115 @@
+<!doctype html>
+
+<!--*************************************
+    Filename: finalRelease.html
+    Written by: Hamza Sheikh
+    Purpose: Description of Final Project
+    Date: 8 December 2021
+    Modification History:
+	Original Build 
+	Tested in : Chrome Microsoft edge
+*****************************************-->
+
+
+<html lang="en">
+    <head>
+    
+        <title>Final Release</title>
+        <meta charset="utf-8">
+		<link href="theme/jquery-ui.css" rel="stylesheet">
+		<script src = "theme/jquery-ui.js"></script>
+		<link href="css/finalRelease.css" rel="stylesheet" type="text/css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="theme/jquery-ui.js"></script>
+		<script src="validation/dist/jquery.validate.js"></script>
+		<script src="JS/finalRelease.js"></script>	
+    </head>
+    
+    <body>
+	
+		
+		<div>
+			
+				<h2>Register Here</h2>
+				<form id ="registerForm">
+				<fieldset>
+				<div id ="register"> 
+					<h3>What are you Looking to do</h3>
+					<div>
+					<input type="radio" id="radio1" name="radio" value = "Rent" ><label for="radio1">Rent</label>
+
+					<input type="radio" id="radio2" name="radio" value = "Buy" ><label for="radio2">Buy</label>
+					
+					<input type="radio" id="radio3" name="radio" value = "Sell" ><label for="radio3">Sell</label>
+					
+					</div>
+					
+					
+					<h3>Add Your information</h3>
+					<div>
+					<p>Our Team will contact you to partner you with the best Agent Available on a date of your choosing down below.</p><br/>
+						   
+						<label for="fname" >First Name</label>
+						<input type="text" id="fname"  name ="fname" placeholder= "First Name" required ><br/>
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lname" placeholder="Last Name" required ><br/>
+						<label for="email">E-mail</label>
+						<input type="email" id="email" name="email" placeholder="youremail@domain.com" required ><br/>
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" placeholder="Password" required ><br/>
+						<label for="phone">Phone</label>
+						<input type="tel" id="phone" name="phone" placeholder="123-999-9999" required><br/>
+						<label for="msg">Preferences:</label>
+						<textarea id="msg" name="comments" placeholder="Enter Comment Here (optional)"  ></textarea><br/><br/>
+						<label for="spinner"> Owned Homes:</label>
+						<input id="spinner" name="spinner" required><br/>
+						
+						
+						
+						
+					</div>
+					
+						
+					<h3>Home Type</h3>
+					<div>
+					
+						   
+					<input type="checkbox" id="Single" name="checkbox" value = "Single" ><label for="Single">Home</label>
+
+					<input type="checkbox" id="Apartment" name="checkbox" value = "Apartment" ><label for="Apartment">Apartment</label>
+					
+					<input type="checkbox" id="Condo" name="checkbox" value = "Condo" ><label for="Condo">Condo</label>
+					</div>
+					
+			
+					
+					<h3>Your available date</h3>
+					<div id="datepicker"></div>
+
+					
+					
+					</div>
+						
+				<div>
+				<button type="submit"  id = "button">Submit</button>
+				<button type="reset" id = "reset">RESET</button>
+				</div>
+				</fieldset>
+				
+				</form>
+				
+					<div id = "submitPage"></div>
+					
+				
+				
+			
+			
+	
+			
+			
+		</div>
+		
+    </body>
+
+</html>

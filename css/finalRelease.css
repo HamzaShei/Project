@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+/**************************************
+ Filename: finalRelease.css
+ Written by: Hamza Sheikh
+ Purpose: css styling for Functional prototype
+ Date: 8 December 2021
+ Modification History:
+ Original Build
+**************************************/
+	
+
+div{
+	
+		color: black;
+		font-weight:bold;
+		font-size:20px;
+}
+
+
+
+body {
+	background-color: #ADD8E6;		/* light blue */	
+	
+}
+
+label {
+			  /* To make sure that all labels are properly aligned */
+			  display: inline-block;
+			  width: 170px;
+			  text-align: right;
+			}
+
+		
+			
+
+	#registerForm label.error {
+	color: red;
+	font-weight: bold;
+	font-size:15px;
+
+}
+			
+	
+		
+	
+
+
+
